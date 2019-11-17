@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Stay up-to-date effortlessly",
+    "description" : "Everyone knows that medicine and healthcare develop and change every day. Our exams and questions are constantly updated to reflect those changes.",
+    "imageUrl": "./assets/images/expertbanks/help_1.png"
+  },
+  {
+    "id": "2",
+    "title": "In-depth explanations",
+    "description" : "Trying to memorize a subject without understanding it is one of the most common mistakes that students make. By providing in-depth explanations for each questions, we help you strengthen your knowledge.",
+    "imageUrl": "./assets/images/expertbanks/help_2.png"
+  },
+  {
+    "id": "3",
+    "title": "Simple conclusions",
+    "description" : "In addition to providing explanations, we also include shorter excerpts of information that simplify complex concepts, making them easier to grasp.",
+    "imageUrl": "./assets/images/expertbanks/help_3.png"
+  }
+]

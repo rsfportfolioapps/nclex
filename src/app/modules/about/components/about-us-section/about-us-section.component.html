@@ -1,0 +1,18 @@
+<!-- Our Origins ... -->
+<div class="row gray our-origins">
+  <div class="story-list">
+    <div class="story" *ngFor="let aboutUs of aboutUsList">
+      <div class="content">
+        <div class="title">
+          <h3>{{aboutUs.title}}</h3>
+        </div>
+        <div class="text">
+          <p>{{aboutUs.description}}</p>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <img src="{{aboutUs.imageUrl}}" alt="expert-academy about us image" />
+      </div>
+    </div>
+  </div>
+</div>

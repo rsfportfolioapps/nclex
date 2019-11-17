@@ -1,0 +1,78 @@
+%carouselBttn {
+	position: absolute;
+	top: 50%;
+	bottom: auto;
+	font-size: 1.5rem;
+	padding: 0.5em;
+	width: 2em;
+	height: 2em;
+	line-height: 1;
+	border-radius: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	opacity: 1 !important;
+	transition: background-color 300ms ease-out;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	> span {
+		display: none;
+	}
+
+	&:before {
+		font-size: 1em;
+		font-family: "wataphak icons";
+		font-weight: 300;
+	}
+
+	&:hover {
+		background-color: rgba(#000,.15);
+	}
+}
+
+
+.carousel {
+	outline: none !important;
+
+	// .carousel-indicators
+	&-indicators {
+		bottom: auto;
+		top: 100%;
+
+		[id*='ngb-slide'] {
+			width: 5px;
+			height: 5px;
+			border-radius: 50%;
+			background-color: $default;
+			opacity: 1 !important;
+
+			&.active {
+				background-color: $secondary-color;
+			}
+		}
+	}
+
+	.carousel-control {
+		&-prev ,
+		&-next {
+			@extend %carouselBttn;
+		}
+
+		// .carousel-control-prev
+		&-prev {
+			left: -2em;
+			&:before {
+				content: "\f104";
+			}
+		}
+		// .carousel-control-next
+		&-next {
+			left: 100%;
+			&:before {
+				content: "\f105";
+			}
+		}
+	}
+}

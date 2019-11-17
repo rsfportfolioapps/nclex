@@ -1,0 +1,13 @@
+<div class="row question">
+  <div class="question-group" *ngFor="let faq of faqsGroupedByCategory | keyvalue">
+    <div class="topic">
+      <h3>{{faq.key}}</h3>
+    </div>
+    <div class="question-list">
+      <div class="question-item" *ngFor="let item of faq.value">
+        <app-faq-item [faqItem]="item"></app-faq-item>
+      </div>
+    </div>
+  </div>
+</div>
+  

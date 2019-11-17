@@ -1,0 +1,15 @@
+<div class="benefits">
+  <div class="title">
+    <h3>{{title}}</h3>
+  </div>
+  <div class="list">
+    <div class="list-item" *ngFor="let benefit of benefits">
+      <div class="image-wrapper">
+        <img src="{{checkIconUrl}}" alt="{{benefit.description}}" />
+      </div>
+      <div class="description">
+        <p>{{benefit.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

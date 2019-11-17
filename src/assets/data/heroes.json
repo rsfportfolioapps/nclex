@@ -1,0 +1,58 @@
+{
+  "home": {
+    "id": "1",
+    "title": "TEST NCLEX-RN BETTER",
+    "subtitle": "A new, evidence-based perspective on NCLEX-RN preparation",
+    "buttonText": "Get started for free!",
+    "imageUrl": "./assets/images/home/hero_section.png",
+    "showButton": true
+  },
+  "about": {
+    "id": "1",
+    "title": "About Page",
+    "subtitle": "A new, evidence-based perspective on NCLEX-RN preparation",
+    "buttonText": "Get started for free!",
+    "imageUrl": "./assets/images/home/hero_section.png",
+    "showButton": true
+  },
+  "blog": {
+    "id": "1",
+    "title": "Blog Page",
+    "subtitle": "A new, evidence-based perspective on NCLEX-RN preparation",
+    "buttonText": "Get started for free!",
+    "imageUrl": "./assets/images/home/hero_section.png",
+    "showButton": true
+  },
+  "contact": {
+    "id": "1",
+    "title": "Contact Page",
+    "subtitle": "A new, evidence-based perspective on NCLEX-RN preparation",
+    "buttonText": "Get started for free!",
+    "imageUrl": "./assets/images/home/hero_section.png",
+    "showButton": true
+  },
+  "nclex": {
+    "id": "1",
+    "title": "NCLEX Page",
+    "subtitle": "A new, evidence-based perspective on NCLEX-RN preparation",
+    "buttonText": "Get started for free!",
+    "imageUrl": "./assets/images/home/hero_section.png",
+    "showButton": true
+  },
+  "expertbank": {
+    "id": "1",
+    "title": "SO LONG, QBANKS. SAY HELLO TO EXPERTBANKS.",
+    "subtitle": "NCLEX ExpertAcademy has created a new way to study. Our adaptive algorithm provides customized exams and a realistic testing experience that will allow you to reach your full potential on the NCLEX-RN.",
+    "buttonText": "Get started for free!",
+    "imageUrl": "./assets/images/expertbanks/hero.png",
+    "showButton": false
+  },
+  "institution": {
+    "id": "1",
+    "title": "Institution Page",
+    "subtitle": "A new, evidence-based perspective on NCLEX-RN preparation",
+    "buttonText": "Get started for free!",
+    "imageUrl": "./assets/images/home/hero_section.png",
+    "showButton": true
+  }
+}

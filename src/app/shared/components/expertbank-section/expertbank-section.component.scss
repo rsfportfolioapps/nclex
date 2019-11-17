@@ -1,0 +1,47 @@
+@import './src/styleguide/utils/index';
+$section-bg: #F2F2F2;
+
+.expertBankSection {
+	background-color: $section-bg;
+
+	.row-header {
+		margin-bottom: 3rem;
+	}
+
+	.section_header {
+		font-weight: 700;
+		color: $secondary-color;
+	}
+
+	.row-content {
+		margin-bottom: 1rem;
+
+		.col {
+			flex-direction: column;
+		}
+
+		.col_img {
+			margin-bottom: 3rem;
+		}
+
+		.col_title {
+			width: 100%;
+			font-weight: 700;
+			text-align: center;
+			text-transform: uppercase;
+			color: $secondary-color;
+			margin-bottom: 1rem;
+		}
+
+		.col_description {
+			text-align: left;
+			margin-bottom: 1rem;
+		}
+
+		.col_actions {
+			text-align: left;
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+	}
+}

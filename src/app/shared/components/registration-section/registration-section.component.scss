@@ -1,0 +1,34 @@
+@import './src/styleguide/utils/index';
+
+.registrationSection {
+	background-color: $secondary-color-100;
+
+	// .registrationSection_form
+	&_form {
+		width: 100%;
+	}
+
+	.col {
+		padding: 4rem;
+	}
+
+	.col-info {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-direction: column;
+		.col_title {
+			font-weight: bold;
+			color: $primary-color;
+		}
+
+		.col_subtitle {
+			font-weight: 400;
+			color: #FFF;
+		}
+	}
+
+	.ncfield {
+		margin-bottom: 1rem;
+	}
+}

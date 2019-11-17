@@ -1,0 +1,88 @@
+<section class="registrationSection section">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6 col-info">
+        <h4 class="section_header-3 col_title">{{title}}</h4>
+        <h4 *ngIf="subtitle" class="section_header-3 col_subtitle">{{subtitle}}</h4>
+      </div>
+      <div class="col col-md-6 col-form">
+        <form 
+          class="row-item registrationSection_form"
+          (ngSubmit)="handleSubmit($event, name.value, email.value, institution.value, contact_person.value, contact_number.value)"
+        >
+          <div class="ncfield col-12">
+            <div class="ncfield_field">
+              <input 
+                #name
+                type="text"
+                placeholder="Name*"
+                class="ncfield_field_input"
+                required
+              >
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="ncfield col-md-6">
+              <div class="ncfield_field">
+                <input 
+                  #email
+                  type="text"
+                  placeholder="Email*"
+                  class="ncfield_field_input"
+                  required
+                >
+              </div>
+            </div>
+            <div class="ncfield col-md-6">
+              <div class="ncfield_field">
+                <input 
+                  #institution
+                  type="text"
+                  placeholder="Institution"
+                  class="ncfield_field_input"
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="ncfield col-md-6">
+              <div class="ncfield_field">
+                <input 
+                  #contact_person
+                  type="text"
+                  placeholder="Contact person*"
+                  class="ncfield_field_input"
+                  required
+                >
+              </div>
+            </div>
+            <div class="ncfield col-md-6">
+              <div class="ncfield_field">
+                <input 
+                  #contact_number
+                  type="text"
+                  placeholder="Mobile"
+                  class="ncfield_field_input"
+                >
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row row-actions row-center">
+            <button 
+              type="submit"
+              class="ncBttn ncBttn-primary"
+            >
+              {{buttonText}}
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+

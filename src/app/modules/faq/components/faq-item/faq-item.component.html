@@ -1,0 +1,11 @@
+<div class="content" *ngIf="faqItem">
+  <div class="action-button">
+    <button (click)="handleClick($event)">+</button>
+  </div>
+  <div class="question">
+    <p>{{faqItem.question}}</p>
+  </div>
+  <div class="answer" *ngIf="showAnswer">
+    <p>{{faqItem.answer}}</p>
+  </div>
+</div>

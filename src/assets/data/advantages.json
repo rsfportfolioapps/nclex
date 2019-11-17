@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "All of our students get a Digital Coach",
+    "description": "The coach will analyze your performance to create a studying experience that is perfectly tailored to your needs. That way, you won't be forced to answer repetitive questions on topics that you already know well; instead, the system will focus on reinforcing the subjects that you haven't fully grasped. To ensure that you don't forget the topics that you have already learned, you will still get occasional questions on them. The frequency of these questions will be based on how often you forget previously learned topics; this factor will also determined by your digital coach.",
+    "imageUrl": "./assets/images/expertbanks/advantage_1.png"
+  },
+  {
+    "id": "2",
+    "title": "Nobody wants to spend all their time studying.",
+    "description": "In order to study smarter, it's important to identify the subjects that you need to focus on; otherwise, you will waste precious time repeating lessons that you already know well. Our adaptive system allows you to take customized quizzes to really zero in on the areas where you are underperforming. Our digital coach will also provide thorough explanations for each question; after all, understanding a topic is the easiest way to memorize it.",
+    "imageUrl": "./assets/images/expertbanks/advantage_2.png"
+  },
+  {
+    "id": "3",
+    "title": "Exam simulation",
+    "description": "NCLEX ExpertAcademy allows you to simulate the environment that you will experience during exam day. This can help predict how you will perform under similar conditions. Our realistic test experience provides an accurate representation of the test you have to take.",
+    "imageUrl": "./assets/images/expertbanks/advantage_3.png"
+  }
+]

@@ -1,0 +1,85 @@
+// /* You can add global styles to this file, and also import other style files */
+// @import "~font-awesome/css/font-awesome.css";
+// // @import "./styleguide/shared";
+
+@import "../node_modules/@angular/material/theming";
+@include mat-core();
+@import "styleguide/main.scss";
+
+// --- temp: @jab, change this ---
+app-page-content-manager-container {
+  display: flex;
+
+  app-sidebar-section {
+    flex-basis: 30%;
+  }
+
+  app-preview-section {
+    flex-grow: 1;
+
+    iframe {
+      width: 100%;
+      height: 100vh;
+    }
+  }
+}
+
+// body {
+//   font-family: $default-font-family;
+//   color: $color-black;
+//   height: 100vh;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5 {
+//   font-weight: 500;
+// }
+
+// p {
+//   font-size: 14px;
+//   color: $color-black-1;
+
+//   span.link {
+//     font-weight: 500;
+//     color: $color-primary;
+//     cursor: pointer;
+//     font-size: 16px;
+
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+
+// .mat-progress-bar {
+//   height: 1px !important;
+//   position: absolute !important;
+// }
+
+// .container {
+//   max-width: 1080px;
+//   margin: 0 auto;
+// }
+
+// .cdk-overlay-pane.search-dialog {
+//   position: relative !important;
+// }
+
+// .search-dialog .mat-dialog-container {
+//   min-width: 675px;
+//   max-width: 955px;
+//   border-radius: 15px;
+// }
+
+
+// //additional custom theme
+// $omg-app-primary: mat-palette($mat-indigo, 600);
+// $omg-app-accent: mat-palette($mat-blue);
+// $omg-app-warn: mat-palette($mat-deep-orange);
+// $omg-app-theme: mat-light-theme($omg-app-primary, $omg-app-accent, $omg-app-warn);
+// @include angular-material-theme($omg-app-theme);

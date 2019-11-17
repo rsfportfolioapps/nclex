@@ -1,0 +1,13 @@
+.section.login-form {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 500px;
+  z-index: -1;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}

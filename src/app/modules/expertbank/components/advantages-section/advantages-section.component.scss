@@ -1,0 +1,37 @@
+@import './src/styleguide/utils/index';
+
+.sectionAdvantage {
+
+	.row-header {
+		margin-bottom: 2rem;
+		.section_header {
+			color: $secondary-color-100;
+		}
+	}
+
+	.col-graphic {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.imageWrapper {
+			max-width: 500px;
+		}
+	}
+
+	.col-content {
+		padding: 4rem 2rem;
+		.title {
+			text-align: left;
+			text-transform: uppercase;
+			color: $primary-color;
+			margin-bottom: .75rem;
+		}
+
+		.description p {
+			text-align: left;
+			font-size: 1rem;
+			line-height: 1.5;
+			margin-bottom: 0;
+		}
+	}
+}

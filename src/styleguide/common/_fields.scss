@@ -1,0 +1,41 @@
+.ncfield {
+	width: 100%;
+	font-size: 1rem;
+
+	// ncfield_field
+	&_field {
+		display: flex;
+		align-items: stretch;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+		border: 1px solid $default;
+
+		// ncfield_field_icon
+		&_icon {
+			flex-shrink: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 1em;
+
+			i {
+				line-height: 1;
+				font-size: 1em;
+			}
+
+			& + .ncfield_field_input {
+				padding-left: 0;
+			}
+		}
+
+		// ncfield_field_input
+		&_input {
+			flex-grow: 1;
+			flex-shrink: 1;
+			padding: .75em 1em;
+			line-height: 1;
+			border: none;
+			outline: none !important;
+		}
+	}
+}

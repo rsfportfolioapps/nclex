@@ -1,0 +1,50 @@
+@import './src/styleguide/utils/index';
+
+.statsSection {
+	background-color: $secondary-color-100;
+	font-family: $font-family;
+
+	.stats {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-direction: column;
+		padding: 2rem;
+
+		// .stats_icon
+		&_icon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 2rem;
+			font-size: 2rem;
+			
+			// .stats_icon_img
+			&_img {
+				width: 1em;
+				height: 1em;
+				font-size: 2em;
+				object-fit: contain;
+				object-position: center center;
+				margin-right: .5rem;
+			}
+			// .stats_icon_count
+			&_count {
+				font-size: 2em;
+				line-height: 1;
+				font-weight: 600;
+				color: $primary-color;
+				margin-bottom: 0;
+			}
+		}
+
+		// .stats_text
+		&_text {
+			width: 100%;
+			color: #FFF;
+			text-align: center;
+			font-size: 1.25em;
+		}
+	}
+}

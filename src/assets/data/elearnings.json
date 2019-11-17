@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "imageUrl": "./assets/images/elearning_samples/sample_1.png"
+  },
+  {
+    "id": "2",
+    "imageUrl": "./assets/images/elearning_samples/sample_2.png"
+  },
+  {
+    "id": "3",
+    "imageUrl": "./assets/images/elearning_samples/sample_3.png"
+  },
+  {
+    "id": "4",
+    "imageUrl": "./assets/images/elearning_samples/sample_4.png"
+  },
+  {
+    "id": "5",
+    "imageUrl": "./assets/images/elearning_samples/sample_5.png"
+  },
+  {
+    "id": "6",
+    "imageUrl": "./assets/images/elearning_samples/sample_6.png"
+  },
+  {
+    "id": "7",
+    "imageUrl": "./assets/images/elearning_samples/sample_7.png"
+  },
+  {
+    "id": "8",
+    "imageUrl": "./assets/images/elearning_samples/sample_8.png"
+  }
+]

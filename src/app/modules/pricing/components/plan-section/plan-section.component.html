@@ -1,0 +1,43 @@
+<div class="row plan-section">
+  <div class="title">
+    <h3>{{title}}</h3>
+  </div>
+  <div class="subtitle">
+    <h4>{{subtitle}}</h4>
+  </div>
+
+  <!-- Plan Options -->
+  <div class="list">
+    <div class="list-item" *ngFor="let plan of plans">
+      <div class="time-span">
+        <p>{{plan.timespan}}</p>
+      </div>
+      <div class="details">
+        <div class="price">
+          <p>{{plan.price}}</p>
+        </div>
+        <div class="discount" *ngIf="plan.discount">
+          <p>{{plan.discount}}</p>
+        </div>
+        <div class="details">
+          <p>{{plan.details}}</p>
+        </div>
+
+        <!-- Checkmarks -->
+        <div class="sublist">
+          <div class="sublist-item" *ngFor="let package of plan.packages">
+            <div class="image-wrapper">
+              <img src="{{checkIconUrl}}" alt="{{plan.description}}" alt="expert academy plans" />
+            </div>
+            <div class="description">
+              <p>{{plan.description}}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <button>{{buttonText}}</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,67 @@
+/* ==========================================================================
+   colors
+   ========================================================================== */
+$btn-colors: (
+	'primary': $primary-color,
+	'secondary': $secondary-color
+);
+
+/* ==========================================================================
+   base settings
+   ========================================================================== */
+.ncBttn {
+	line-height: 1;
+	font-size: 1rem;
+	padding: 1em 2em;
+	text-transform: uppercase;
+	box-shadow: none;
+	border: none;
+	cursor: pointer;
+	font-family: $font-family;
+	font-weight: 500;
+	border-radius: .35em;
+}
+
+/* ==========================================================================
+   implement colors
+   ========================================================================== */
+.ncBttn {
+	> i , 
+	> span {
+		color: inherit;
+		font-weight: inherit;
+		font-size: inherit;
+	}
+
+
+	@each $name,$value in $btn-colors {
+		&-#{$name} {
+			border-color: $value;
+			background-color: $value;
+			color: determine-text-color($value);
+			&:hover {
+				border-color: darken($value,10);
+				background-color: darken($value,10);
+			}
+		}
+
+
+		&-#{$name}-inverted {
+			border: 2px solid lighten($value, 50%); 
+			color: $value;
+			background-color: transparent;
+			&:hover {
+				border-color: $value
+			}
+		}
+
+		&-tc-#{$name} {
+			color: $value;
+			border: none !important;
+			&:hover {
+				background-color: rgba($value,.05);
+				border-color: darken($value,10);
+			}
+		}
+	}
+}

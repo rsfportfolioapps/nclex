@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "timespan": "1 Month",
+    "price": "FREE",
+    "discount": "",
+    "details": "NCLEX-RN Question Bank + Assessment Questions",
+    "packages": [
+      {
+        "id": "1",
+        "description": "2019 Edition"
+      },
+      {
+        "id": "2",
+        "description": "More than 1000+ NCSBN Formatted Items"
+      },
+      {
+        "id": "3",
+        "description": "Activate When You're Ready"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "timespan": "3 Months",
+    "price": "$200",
+    "discount": "",
+    "details": "NCLEX-RN Question Bank + Assessment Questions",
+    "packages": [
+      {
+        "id": "1",
+        "description": "2019 Edition"
+      },
+      {
+        "id": "2",
+        "description": "More than 5000+ NCSBN Formatted Items"
+      },
+      {
+        "id": "3",
+        "description": "Activate When You're Ready"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "timespan": "6 Months",
+    "price": "$250",
+    "discount": "Save $50/month",
+    "details": "NCLEX-RN Question Bank + Assessment Questions",
+    "packages": [
+      {
+        "id": "1",
+        "description": "2019 Edition"
+      },
+      {
+        "id": "2",
+        "description": "More than 5000+ NCSBN Formatted Items"
+      },
+      {
+        "id": "3",
+        "description": "Activate When You're Ready"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "timespan": "12 Months",
+    "price": "$300",
+    "discount": "Save $50/month",
+    "details": "NCLEX-RN Question Bank + Assessment Questions",
+    "packages": [
+      {
+        "id": "1",
+        "description": "2019 Edition"
+      },
+      {
+        "id": "2",
+        "description": "More than 1000+ NCSBN Formatted Items"
+      },
+      {
+        "id": "3",
+        "description": "Activate When You're Ready"
+      }
+    ]
+  }
+]

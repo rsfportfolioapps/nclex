@@ -1,0 +1,36 @@
+<!-- Having great questions ... -->
+<div class="row great-questions">
+  <div class="title">
+    <h2>
+      {{title}}
+    </h2>
+  </div>
+  <div class="subtitle">
+    <h3>
+      {{subtitle}}
+    </h3>
+  </div>
+  <div class="content-list">
+    <div
+      class="content-item"
+      [ngClass]="{ odd: odd, even: even }"
+      *ngFor="let improvement of improvements; let odd=odd; let even=even;"
+    >
+      <div class="image-wrapper">
+        <img src="{{improvement.imageUrl}}" alt="expert academy improvement" />
+      </div>
+      <div class="content">
+        <div class="heading">
+          <h3>
+            {{improvement.title}}
+          </h3>
+        </div>
+        <div class="text">
+          <p>
+            {{improvement.description}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

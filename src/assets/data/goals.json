@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "niche": "Faculty and Staff",
+    "list": [
+      {
+        "id": "1",
+        "description": "Data analysis and performance prediction for individual student and classes"
+      },
+      {
+        "id": "2",
+        "description": "Our system helps you understand the study habits and testing performance of students who have lower scores"
+      },
+      {
+        "id": "3",
+        "description": "Customized, adaptive exams that simulate real exams and determine how a student's performance will tranlate to the NCLEX-RN"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "niche": "Nursing students and professionals",
+    "list": [
+      {
+        "id": "1",
+        "description": "Who have thousands of questions and learning materials available to improve your testing performance"
+      },
+      {
+        "id": "2",
+        "description": "Do you get nervous befor a big exam? Our realistic testing platform can help you reduce your anxiety and make your feel more confident on exam day"
+      },
+      {
+        "id": "3",
+        "description": "Our system identifies your weakest areas and reinforces the subjects that you need to improve on"
+      }
+    ]
+  }
+]

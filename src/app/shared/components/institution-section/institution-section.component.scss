@@ -1,0 +1,36 @@
+@import './src/styleguide/utils/index';
+
+.institutionSection {
+	.row {
+		align-items: stretch;
+	}
+
+
+	.col {
+		padding: 4rem 2rem;
+		color: $text-color-white;
+
+		// .col_title
+		&_title {
+			font-weight: 700;
+		}
+
+		// .col_img
+		&_img {
+			width: 100%;
+			margin-bottom: 2rem;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		&:first-child {
+			background-color: $primary-color;
+		}
+
+		&:last-child {
+			background-color: $primary-color-100;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+
+<section class="featureSection section">
+  <div class="container">
+    <div class="row row-header row-center">
+      <div class="col-md-10">
+        <h4 class="section_header section_header-2">{{title}}</h4>
+      </div>
+    </div>
+    <div class="row row-content">
+      <div 
+        class="col col-md-4 col-center feature"
+        *ngFor="let feature of features"
+      >
+        <div class="feature_img">
+          <div class="imageWrapper">
+             <img src="{{feature.imageUrl}}" alt="expert academy feature image" />
+          </div>
+        </div>
+        <div class="feature_content">
+          <h4 class="title">{{feature.title}}</h4>
+          <div class="description">
+            <p>{{feature.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

@@ -1,0 +1,27 @@
+<div class="row goal-section">
+  <div class="title">
+    <h3>{{title}}</h3>
+  </div>
+  <div class="content">
+    <div class="image-wrapper">
+      <img src="{{avatarUrl}}" alt="goals avatar" />
+    </div>
+    <div class="group">
+      <div class="group-item" *ngFor="let goal of goals">
+        <div class="niche">
+          <h3>{{goal.niche}}</h3>
+        </div>
+        <div class="list">
+          <div class="list-item" *ngFor="let item of goal.list">
+            <div class="image-wrapper">
+              <img src="{{checkIconUrl}}" alt="check image" />
+            </div>
+            <div class="description">
+              <p>{{item.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

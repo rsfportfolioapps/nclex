@@ -1,0 +1,40 @@
+<div class="row question-section">
+  <div class="title">
+    <h3>{{title}}</h3>
+  </div>
+  <div class="subtitle">
+    <h4>{{subtitle}}</h4>
+  </div>
+  <form class="row-item form" (ngSubmit)="handleSubmit($event, inquiryType.value, position.value, firstName.value, lastName.value, email.value, institution.value, question.value)">
+    <div class="form-row">
+      <select #inquiryType name="inquiryType" required>
+        <option value="" selected>Inquiry type *</option>
+        <option value="1">Type 1</option>
+        <option value="2">Type 2</option>
+        <option value="3">Type 3</option>
+      </select>
+      <select #position name="position" required>
+        <option value="" selected>I am a *</option>
+        <option value="1">Position 1</option>
+        <option value="2">Position 2</option>
+        <option value="3">Position 3</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <input #firstName type="text" placeholder="First name *" required>
+      <input #lastName type="text" placeholder="Last name *" required>
+    </div>
+    <div class="form-row">
+      <input #email type="text" placeholder="Email *" required>
+      <input #institution type="text" placeholder="Institution *" required>
+    </div>
+    <div class="form-row">
+      <textarea rows="4" cols="50" #question type="text" placeholder="What can we help you with?"></textarea>
+    </div>
+    <div class="form-row">
+      <button type="submit">
+        {{buttonText}}
+      </button>
+    </div>
+  </form>
+</div>

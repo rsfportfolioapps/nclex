@@ -1,0 +1,25 @@
+<!-- An innovative ... -->
+<div class="row innovative-learning">
+  <div class="title">
+    <h3>
+      {{title}}
+    </h3>
+  </div>
+  <div class="chiplist-image">
+    <div class="chip-list">
+      <div class="chip" *ngFor="let innovation of innovations">
+        <div class="text">
+          <h3>{{innovation.title}}</h3>
+        </div>
+      </div>
+    </div>
+    <div class="image-wrapper">
+      <img src="{{imageUrl}}" alt="expert academy innovations" />
+    </div>
+  </div>
+  <div class="title">
+    <h3>
+      {{subtitle}}
+    </h3>
+  </div>
+</div>

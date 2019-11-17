@@ -1,0 +1,42 @@
+<div class="card hero-details">
+  <!-- Section Header -->
+  <app-section-header title="Hero Section">
+  </app-section-header>
+
+  <!-- Section Graphics -->
+  <div class="section graphics">
+    <div class="section-item">
+        <div class="background">
+          <img src="https://picsum.photos/400/300?random=1" alt="background" />
+        </div>
+    </div>
+  </div>
+
+  <!-- Section Content -->
+  <div class="section content" *ngIf="hero">
+    <div class="section-item">
+      <div class="title">
+        <h4>Heading 1</h4>
+      </div>
+      <div class="text-input">
+        <input name="title" [value]="hero.title" (input)="handleInputChange($event)" type="text">
+      </div>
+    </div>
+    <div class="section-item">
+      <div class="title">
+        <h4>Heading 2</h4>
+      </div>
+      <div class="text-input">
+        <input name="subtitle" [value]="hero.subtitle" (input)="handleInputChange($event)" type="text">
+      </div>
+    </div>
+    <div class="section-item">
+      <div class="title">
+        <h4>Button Text</h4>
+      </div>
+      <div class="text-input">
+        <input name="buttonText" [value]="hero.buttonText" (input)="handleInputChange($event)" type="text">
+      </div>
+    </div>
+  </div>
+</div>

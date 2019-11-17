@@ -1,0 +1,22 @@
+.section {
+	padding: 4rem 0;
+
+	// .section_header
+	&_header {
+
+		&-1 {
+			font-size: 3.5rem;
+			font-weight: bold;
+		}
+
+		&-2 {
+			font-size: 2.5rem;
+			font-weight: bold;
+		}
+
+		&-3 {
+			font-size: 1.75rem;
+			font-weight: bold;
+		}
+	}
+}

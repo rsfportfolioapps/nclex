@@ -1,0 +1,26 @@
+<section class="statsSection section">
+  <div class="container">
+    <div class="row">
+      <div 
+        class="col col-lg-3 col-md-6 "
+        *ngFor="let figure of figures"
+      >
+        <div class="stats">
+          <div class="stats_icon">
+            <img 
+              src="{{figure.imageUrl}}"
+              alt="expert academy figures"
+              class="stats_icon_img"
+            />
+            <h2 class="stats_icon_count">
+              {{figure.total}}
+            </h2>
+          </div>
+          <div class="stats_text">
+            {{figure.description}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

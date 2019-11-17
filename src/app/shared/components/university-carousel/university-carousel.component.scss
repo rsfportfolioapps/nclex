@@ -1,0 +1,29 @@
+@import './src/styleguide/utils/index';
+
+
+.universitiesSection .row-header {
+	margin-bottom: 1rem;
+}
+
+/* ==========================================================================
+   carousel
+   ========================================================================== */
+.universitiesSection .univCarousel {
+	width: 100%;
+	outline: none !important;
+
+	// .univCarousel_item
+	&_item {
+		width: percentage(1/5);
+		display: inline-block;
+	}
+
+	// .univCarousel_item_imgWrapper
+	&_imgWrapper {
+		width: 100%;
+	}
+
+	&_img {
+		width: 100%;
+	}
+}

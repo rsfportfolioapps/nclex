@@ -1,0 +1,108 @@
+@import 'utils/index';
+@import 'common/index';
+
+
+.featureSection {
+	background-color: $lightgray;
+	font-size: 1rem;
+
+
+	.row-header {
+		margin-bottom: 4rem;
+	}
+
+	.section_header {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $secondary-color-100;
+	}
+
+	.feature {
+		&_img {
+			margin-bottom: 2rem;
+		}
+
+		// .feature_content
+		&_content {
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding: 2rem;
+
+			.title {
+				text-transform: uppercase;
+				color: $primary-color;
+				font-weight: bold;
+				line-height: 1.5;
+				min-height: 3em;
+				width: 80%;
+			}
+
+			.description {
+				font-family: $font-family;
+			}
+		}
+	}
+}
+
+
+.performanceSection {
+	background-color: $primary-color-100;
+
+
+	.row-graphic {
+		margin-bottom: 4rem;
+	}
+
+	.row-info {
+		.info_title {
+			text-transform: uppercase;
+			color: $primary-color;
+			font-weight: bold;
+		}
+
+		.info_desc {
+			font-size: 1.25rem;
+			text-align: left;
+			color: #FFF;
+		}
+	}
+
+	.movingGraphic {
+		position: relative;
+		// .movingGraphic_circleBg
+		&_circleBg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 40%;
+			padding-top: 40%;
+			transform: translate(-50%,-50%);
+			z-index: 1;
+			border-radius: 50%;
+			background-color: rgba(#FFF,.15);
+		}
+		// .movingGraphic_computers
+		&_computers {
+			width: 80%;
+			margin: 0 auto;
+			padding: 4rem 0;
+			position: relative;
+			z-index: 10;
+			display: flex;
+			align-items: flex-start;
+			justify-content: center;
+			.computer_back {
+				position: relative;
+				z-index: 1;
+				width: 40%;
+			}
+			.computer_front {
+				position: relative;
+				z-index: 10;
+				width: 60%;
+			}
+		}
+	}
+}

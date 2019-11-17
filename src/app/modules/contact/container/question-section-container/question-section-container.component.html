@@ -1,0 +1,7 @@
+<app-question-section
+    [title]="title | async"
+    [subtitle]="subtitle | async"
+    [buttonText]="buttonText | async"
+    (onSubmitForm)="handleSubmitQuestionForm($event)"
+  >
+</app-question-section>

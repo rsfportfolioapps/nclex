@@ -1,0 +1,29 @@
+<section class="universitiesSection section">
+  <div class="container">
+    <div class="row row-header row-center">
+      <h4 class="section_header">STUDENTS FROM THESE UNIVERSITIES USE OUR E-LEARNING</h4>
+    </div>
+    <div class="row row-content">
+      <ngb-carousel 
+        pauseOnHover
+        class="univCarousel"
+      >
+        <ng-template ngbSlide *ngFor="let universities of slides">
+          <div 
+            class="univCarousel_item" 
+            *ngFor="let university of universities"
+          >
+            <div class="univCarousel_item_imgWrapper">
+              <img
+                class="univCarousel_item_img"
+                [src]="university.imageUrl" 
+                alt="{{university.name}}"
+              >
+            </div>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </div>
+</section>
+

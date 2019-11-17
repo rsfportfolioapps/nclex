@@ -1,0 +1,42 @@
+
+<section class="testimonialsSection section">
+  <div class="container">
+    <div class="row row-header row-center">
+      <h4 class="section_header section_header-2">{{title}}</h4>
+    </div>
+    <div class="row row-content">
+      <ngb-carousel class="testimonialCarousel">
+        <ng-template ngbSlide *ngFor="let testimonials of slides">
+          <div class="row">
+            <div 
+              class="col col-md-6 testimony"
+              *ngFor="let testimonial of testimonials"
+            >
+              <p class="testimony_desc">
+                {{testimonial.content}}
+              </p>
+
+              <div class="testimony_citation">
+                <div class="testimony_citation_avatar">
+                  <img src="{{testimonial.avatarUrl}}" alt="expert academy testimonial" />
+                </div>
+                <div class="testimony_citation_info">
+                  <div class="name">
+                    {{testimonial.fullName}}
+                  </div>
+                  <div class="position">
+                    {{testimonial.position}}
+                  </div>
+                  <div class="company">
+                    {{testimonial.company}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </div>
+</section>
+

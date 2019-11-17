@@ -1,0 +1,22 @@
+@import './src/styleguide/utils/index';
+
+.subscriptionSection {
+	.section_header {
+		font-weight: bold;
+		color: $secondary-color;
+		margin-bottom: 2rem;
+	}
+
+	// .subscriptionSection_form
+	&_form {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+
+		.ncBttn {
+			flex-shrink: 0;
+			margin-left: 1rem;
+		}
+	}
+}

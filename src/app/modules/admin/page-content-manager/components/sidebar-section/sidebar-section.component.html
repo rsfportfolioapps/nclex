@@ -1,0 +1,17 @@
+<div class="page-selections">
+  <select name="page" required>
+    <option value="{{page.id}}" *ngFor="let page of pages">{{page.name}}</option>
+  </select>
+</div>
+
+<!-- Section Lists -->
+<app-sidebar-section-list>
+</app-sidebar-section-list>
+
+<!-- Hero Section -->
+<app-hero-section-details-container>
+</app-hero-section-details-container>
+
+<!-- Universities Section -->
+<app-university-section-details-container>
+</app-university-section-details-container>

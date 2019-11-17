@@ -1,0 +1,45 @@
+<mat-toolbar class="navHeader">
+  <div class="container">
+    <a 
+      href="#"
+      routerLink="/" 
+      class="navHeader_logo"
+    >
+      <img src="/assets/images/global/header_logo.png" alt="expert academy header logo">
+    </a>
+    <nav class="navHeader_menu">
+      <ul class="navHeader_menu_list">
+        <li class="navHeader_menu_item" *ngFor="let link of links">
+          <a href="#" routerLink="{{link.value}}" routerLinkActive="active">{{link.label}}</a>
+          <div class="navHeader_menu_submenu" *ngIf="link.sub">
+            <ul class="navHeader_menu_list">
+              <li class="navHeader_menu_item" *ngFor="let subLink of link.sub">
+                <a href="#" routerLink="{{subLink.value}}" routerLinkActive="active">{{subLink.label}}</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="navHeader_actions">
+      <button 
+        mat-button
+        class="ncBttn ncBttn-primary"
+        (click)="onClickLogin()"
+      >
+        LOGIN
+      </button>
+      <button 
+        mat-button
+        class="ncBttn ncBttn-secondary"
+        (click)="onClickSignup()"
+      >
+        SIGN UP
+      </button>
+    </div>
+    <div class="login-popup">
+      <app-login-form-container *ngIf="showLogin">
+      </app-login-form-container>
+    </div>
+  </div>
+</mat-toolbar>

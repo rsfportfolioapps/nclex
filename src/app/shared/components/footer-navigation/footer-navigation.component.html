@@ -1,0 +1,46 @@
+<footer>
+  <div class="row row-content">
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-4 col-info">
+          <div class="logo">
+            <a routerLink="{{logoLink}}" title="{{logoTitle}}">
+              <img src="{{logoUrl}}" alt="expert academy logo" />
+            </a>
+          </div>
+          <div class="link">
+            <a routerLink="{{appLink}}" title="{{appTitle}}">{{appLabel}}</a>
+          </div>
+          <div class="social">
+            <div 
+              class="social_item"
+              *ngFor="let socialMedia of socialMedias"
+            >
+              <a href="{{socialMedia.link}}" title="{{socialMedia.title}}">
+                <i ngClass="wtfb wtf-{{socialMedia.icon}}"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-offset-4 col-md-4 col-help">
+          <div class="title">
+            {{helpText}}
+          </div>
+          <ul class="help">
+            <li 
+              class="help_item"
+              *ngFor="let navlink of navlinks"
+            >
+              <a routerLink="{{navlink.link}}">
+                {{navlink.title}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-copyright">
+    <p>{{copyrightText}}</p>
+  </div>
+</footer>

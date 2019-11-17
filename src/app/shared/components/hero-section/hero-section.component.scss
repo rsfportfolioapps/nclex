@@ -1,0 +1,13 @@
+@import './src/styleguide/utils/index';
+
+.heroSection {
+	height: auto;
+	min-height: 70vh;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	color: $text-color-white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

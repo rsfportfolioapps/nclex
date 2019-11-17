@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+}
+* ,
+*:before ,
+*:after {
+	box-sizing: border-box;
+}
+
+.main-content {
+	height: auto;
+	min-height: 100vh;
+	padding-top: $nav-height;
+}

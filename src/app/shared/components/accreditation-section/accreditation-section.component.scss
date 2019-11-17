@@ -1,0 +1,22 @@
+@import './src/styleguide/utils/index';
+
+.accreditationSection .row-header {
+	margin-bottom: 1rem;
+}
+
+.accreditationSection .accreditation {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	// .accreditation_item
+	&_item {
+		max-width: 200px;
+		margin: 1rem 3rem;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

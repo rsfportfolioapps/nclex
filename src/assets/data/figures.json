@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "total": "1.5M+",
+    "description": "STUDENTS AROUND THE WORLD",
+    "imageUrl": "./assets/images/global/stats_facts/facts_graphic_1.png"
+  },
+  {
+    "id": "2",
+    "total": "10M+",
+    "description": "MODULES ACTIVATED TO DATE",
+    "imageUrl": "./assets/images/global/stats_facts/facts_graphic_2.png"
+  },
+  {
+    "id": "3",
+    "total": "13M+",
+    "description": "COMPLETED INTERACTIVE ASSIGNMENTS IN PART 12 MONTHS",
+    "imageUrl": "./assets/images/global/stats_facts/facts_graphic_3.png"
+  },
+  {
+    "id": "4",
+    "total": "5K+",
+    "description": "INSTITUTIONS THAT USES OUR PRODUCT",
+    "imageUrl": "./assets/images/global/stats_facts/facts_graphic_4.png"
+  }
+]

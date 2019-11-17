@@ -1,0 +1,93 @@
+@import './src/styleguide/utils/index';
+
+
+.testimonialsSection {
+	background-color: $lightgray;
+	.row-header {
+		margin-bottom: 2rem;
+		.section_header {
+			font-weight: bold;
+			color: $secondary-color;
+		}
+	}
+
+	.row-content {
+		padding-bottom: 4rem;
+	}
+}
+
+/* ==========================================================================
+   CAROUSEL
+   ========================================================================== */
+$avatar-size: 60px;
+$dots-size: 10px;
+
+.testimonialsSection {
+	.testimonialCarousel {
+		.carousel-indicators {
+			top: calc(100% + 2rem);
+
+			[id*='ngb-slide'] {
+				width: $dots-size;
+				height: $dots-size;
+				border-radius: 50%;
+				background-color: $default;
+				opacity: 1 !important;
+
+				&.active {
+					background-color: $primary-color;
+				}
+			}
+		}
+	}
+
+	.testimony {
+		font-family: $font-family;
+		font-size: 1rem;
+
+		// .testimony_desc
+		&_desc {
+			line-height: 2;
+			margin-bottom: 2rem;
+		}
+
+		// .testimony_citation
+		&_citation {
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+
+			// .testimony_citation_avatar
+			&_avatar {
+				width: $avatar-size;
+				height: $avatar-size;
+				overflow: hidden;
+				border-radius: 50%;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center center;
+				}
+			}
+
+			// .testimony_citation_info
+			&_info {
+				padding: 0 1rem;
+				display: flex;
+				align-items: flex-start;
+				justify-content: flex-start;
+				flex-direction: column;
+				.name {
+					font-weight: bold;
+					color: $secondary-color;
+					font-size: 1.5rem;
+					margin-bottom: .25rem;
+				}
+			}
+		}
+	}
+}
+
+
